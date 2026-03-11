@@ -41,32 +41,51 @@ It is recommended to run the programs using **VS Code**.
 
 # Requirements
 
-Install the required libraries:
+Install the required libraries before running the experiments:
 
 ```bash
 pip install tensorflow keras numpy pandas matplotlib scikit-learn
 ```
-#Running the Programs
-##Using VS Code (Recommended)
 
-1.Open the repository folder in VS Code
-2.Run the .py or .ipynb files
-3.Ensure the required libraries are installed
+These libraries are used for:
+- Deep learning model development
+- Data preprocessing
+- Visualization
+- Machine learning utilities
 
-#Using Jupyter Notebook (Optional)
+---
 
-##Install Jupyter Notebook:
+# Running the Programs
 
+## Using VS Code (Recommended)
+
+1. Open the repository folder in **VS Code**
+2. Run the `.ipynb` files
+3. Ensure the required libraries are installed
+
+---
+
+## Using Jupyter Notebook (If you Want)
+
+### Install Jupyter Notebook
+
+```bash
 pip install notebook
+```
 
-##Run:
+### Run Jupyter Notebook
 
+```bash
 jupyter notebook
+```
 
-Open the .ipynb files and execute the cells.
+Open the `.ipynb` files and execute the cells.
 
-#Repository Structure
+---
 
+# Repository Structure
+
+```text
 Deep-Learning-Lab/
 │
 ├── Exercise_1_Data_Augmentation.ipynb
@@ -78,9 +97,14 @@ Deep-Learning-Lab/
 ├── Exercise_7_Document_Classification_RNN.ipynb
 │
 └── README.md
+```
 
-#Purpose of this Repository
+---
 
-##Provide working implementations of Deep Learning lab experiments
-##Help students avoid common runtime errors
-##Serve as a reference for juniors
+# Purpose of this Repository
+
+- Provide **working implementations of Deep Learning lab experiments**
+- Help **avoid common runtime errors**
+- Serve as a **reference**
+
+---
